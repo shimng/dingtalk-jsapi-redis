@@ -1,0 +1,16 @@
+{
+  "name": "dingtalk-jsapi-redis",
+  "version": "1.0.0",
+  "description": "dingtalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dingtalk",
+    "jsapi",
+    "redis"
+  ],
+  "author": "shimng",
+  "license": "ISC"
+}
