@@ -68,7 +68,7 @@ module.exports = {
             },
             function (token,cb) {
                 var params = args.params || {} ;
-                params["access_token"] = token[config.ding.prefix].token ;
+                params["access_token"] = token.token ;
                 auth.commonHttpGet({
                     action:args.action,
                     params:params
@@ -110,7 +110,7 @@ module.exports = {
                 var params = args.params || {} ;
                 auth.commonHttpPost({
                     action:args.action,
-                    access_token :token[config.ding.prefix].token ,
+                    access_token :token.token ,
                     params:params
                 }).then(function(data){
                     cb(null,data);
